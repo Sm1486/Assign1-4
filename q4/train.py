@@ -29,7 +29,6 @@ def main():
         mlflow.log_param("n_estimators", args.n_estimators)
         mlflow.log_param("max_depth", args.max_depth)
         mlflow.log_param("seed", args.seed)
-        mlflow.set_tag("git_commit", "Trained model and dataset have been updated in mlflow")
 
         model = RandomForestClassifier(
             n_estimators=args.n_estimators, max_depth=args.max_depth, random_state=42
