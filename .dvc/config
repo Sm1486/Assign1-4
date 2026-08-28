@@ -1,4 +1,4 @@
 [core]
-    remote = loc_remote
-['remote "loc_remote"']
-    url = ../~tmp/dvc_storage
+    remote = ssh_remote
+['remote "ssh_remote"']
+    url = ssh://10.45.13.185/home/vboxuser/dvc_storage
